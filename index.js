@@ -6,6 +6,7 @@ const port =3000;
 app.get('/', function(req, res){
     res.send('Hola mundo');
 })
+//inicializa servidor 
 app.listen (port, ()=>{
     console.log('Levantando server en el puerto ${port}')
 })
